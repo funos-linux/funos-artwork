@@ -20,7 +20,7 @@ funos-artwork/
 
 ## Installation
 
-To install the wallpapers and themes on FunOS 24.04.2 or 25.04, run:
+To install the wallpapers and themes on FunOS 22.04.5, 24.04.2 or 25.04, run:
 
 ```bash
 sudo apt update
@@ -42,8 +42,3 @@ After installing, you may need to **reload the JWM menu** for the new themes to 
 ```bash
 Menu → Reload menu
 ```
-
-## License
-
-All wallpapers are sourced from Adobe Stock under a valid license for distribution with FunOS.
-JWM themes are released under the [MIT License](LICENSE).
