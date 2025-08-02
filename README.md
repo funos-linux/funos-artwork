@@ -2,9 +2,9 @@
 
 This repository contains additional artwork files for FunOS, including:
 
-* 🎨 15 new wallpapers
-* 🎨 10 new JWM themes
-* 📄 `themes-list` file for dynamic JWM theme menus
+* 15 new wallpapers
+* 10 new JWM themes
+* `themes-list` file for dynamic JWM theme menus
 
 These files are included by default in **FunOS 24.04.3**.
 Users of **FunOS 24.04.2** and **FunOS 25.04** can manually add these wallpapers and themes using the provided install script.
