@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JWM>
+    <Menu icon="preferences-desktop-theme" label="Themes">
+        <Program label="Adwaita Dark" confirm="false">cp -a .config/jwm/themes/Adwaita-Dark .config/jwm/theme && jwm -restart</Program>
+        <Program label="Arc-Darker" confirm="false">cp -a .config/jwm/themes/Arc-Darker .config/jwm/theme && jwm -restart</Program>
+        <Program label="Black" confirm="false">cp -a .config/jwm/themes/Black .config/jwm/theme && jwm -restart</Program>
+        <Program label="Blue Day" confirm="false">cp -a .config/jwm/themes/Blue-Day .config/jwm/theme && jwm -restart</Program>
+        <Program label="Brown" confirm="false">cp -a .config/jwm/themes/Brown .config/jwm/theme && jwm -restart</Program>
+        <Program label="Buntoo" confirm="false">cp -a .config/jwm/themes/Buntoo .config/jwm/theme && jwm -restart</Program>
+        <Program label="Cappuccino" confirm="false">cp -a .config/jwm/themes/Cappuccino .config/jwm/theme && jwm -restart</Program>
+        <Program label="Clearlooks" confirm="false">cp -a .config/jwm/themes/Clearlooks .config/jwm/theme && jwm -restart</Program>
+        <Program label="Coffee Cream" confirm="false">cp -a .config/jwm/themes/Coffee-Cream .config/jwm/theme && jwm -restart</Program>
+        <Program label="Coper" confirm="false">cp -a .config/jwm/themes/Coper .config/jwm/theme && jwm -restart</Program>
+        <Program label="Dark Gray" confirm="false">cp -a .config/jwm/themes/Dark-Gray .config/jwm/theme && jwm -restart</Program>
+        <Program label="Dark Mint" confirm="false">cp -a .config/jwm/themes/Dark-Mint .config/jwm/theme && jwm -restart</Program>
+        <Program label="Default" confirm="false">cp -a .config/jwm/themes/Default .config/jwm/theme && jwm -restart</Program>
+        <Program label="Flat Green" confirm="false">cp -a .config/jwm/themes/Flat-Green .config/jwm/theme && jwm -restart</Program>
+        <Program label="Gold" confirm="false">cp -a .config/jwm/themes/Gold .config/jwm/theme && jwm -restart</Program>
+        <Program label="Green" confirm="false">cp -a .config/jwm/themes/Green .config/jwm/theme && jwm -restart</Program>
+        <Program label="Ice" confirm="false">cp -a .config/jwm/themes/Ice .config/jwm/theme && jwm -restart</Program>
+        <Program label="JWMKit DarkGreen" confirm="false">cp -a .config/jwm/themes/JWMKit-DarkGreen .config/jwm/theme && jwm -restart</Program>
+        <Program label="Military" confirm="false">cp -a .config/jwm/themes/Military .config/jwm/theme && jwm -restart</Program>
+        <Program label="Numix" confirm="false">cp -a .config/jwm/themes/Numix .config/jwm/theme && jwm -restart</Program>
+        <Program label="Numix Dusk" confirm="false">cp -a .config/jwm/themes/Numix-Dusk .config/jwm/theme && jwm -restart</Program>
+        <Program label="Numix Sun" confirm="false">cp -a .config/jwm/themes/Numix-Sun .config/jwm/theme && jwm -restart</Program>
+        <Program label="Pastel" confirm="false">cp -a .config/jwm/themes/Pastel .config/jwm/theme && jwm -restart</Program>
+        <Program label="Pretty Pink" confirm="false">cp -a .config/jwm/themes/Pretty-Pink .config/jwm/theme && jwm -restart</Program>
+        <Program label="Red" confirm="false">cp -a .config/jwm/themes/Red .config/jwm/theme && jwm -restart</Program>
+        <Program label="Shades of Grey" confirm="false">cp -a .config/jwm/themes/Shades-of-Grey .config/jwm/theme && jwm -restart</Program>
+        <Program label="Stnakes" confirm="false">cp -a .config/jwm/themes/Stnakes .config/jwm/theme && jwm -restart</Program>
+        <Program label="Sunny Day" confirm="false">cp -a .config/jwm/themes/Sunny-Day .config/jwm/theme && jwm -restart</Program>
+        <Program label="White" confirm="false">cp -a .config/jwm/themes/White .config/jwm/theme && jwm -restart</Program>
+    </Menu>
+</JWM>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JWM>
+
+    <!-- Visual Style Window. -->
+    <WindowStyle>
+        <Font align="center">DejaVu Sans-11</Font>
+        <Width>1</Width>
+        <Height>22</Height>
+        <Foreground>#7f7f7f</Foreground>
+        <Background>#333333</Background>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#555555</Background>
+            <Outline>#7f7f7f</Outline>
+        </Active>
+    </WindowStyle>
+
+    <!-- Visual Style Menu. -->
+    <MenuStyle>
+        <Font>DejaVu Sans-10</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#D64937</Background>
+        </Active>
+    </MenuStyle>
+
+    <!-- Visual Style Tray. -->
+    <TrayStyle>
+        <Font>DejaVu Sans-10</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#D64937</Background>
+        </Active>
+    </TrayStyle>
+
+    <!-- Visual Style Popup. -->
+    <PopupStyle>
+        <Font>DejaVu Sans-10</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <Outline>#7f7f7f</Outline>
+    </PopupStyle>
+
+    <!-- Visual Style Pager. -->
+    <PagerStyle>
+        <Font>DejaVu Sans-8</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Foreground>#DCDAD5</Foreground>
+        <Background>#9898A8</Background>
+        <Outline>#000000</Outline>
+        <Active>
+            <Foreground>#F899CA</Foreground>
+            <Background>#DA4976</Background>
+        </Active>
+    </PagerStyle>
+
+    <!-- Visual Style Clock. -->
+    <ClockStyle>
+        <Font>DejaVu Sans-10:weight=demibold</Font>
+    </ClockStyle>
+
+</JWM>
