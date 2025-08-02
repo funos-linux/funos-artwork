@@ -47,7 +47,3 @@ Menu → Settings → Reload Menu
 
 All wallpapers are sourced from Adobe Stock under a valid license for distribution with FunOS.
 JWM themes are released under the [MIT License](LICENSE).
-
----
-
-Let me know if you want a **localized (Bahasa Indonesia)** version or if you're planning to support more versions of FunOS.
