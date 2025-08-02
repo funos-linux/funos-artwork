@@ -15,7 +15,7 @@ Users of **FunOS 24.04.2** and **FunOS 25.04** can manually add these wallpapers
 funos-artwork/
 ├── wallpapers/       # 15 new wallpapers
 ├── jwm-themes/       # 10 new JWM themes
-└── jwm-config        # JWM configuration file
+└── jwm-config/       # JWM configuration file
 ```
 
 ## 🚀 Installation
