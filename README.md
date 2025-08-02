@@ -40,7 +40,7 @@ This will:
 After installing, you may need to **reload the JWM menu** for the new themes to appear:
 
 ```bash
-Menu → Reload Menu
+Menu → Reload menu
 ```
 
 ## License
