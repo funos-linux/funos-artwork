@@ -23,6 +23,8 @@ funos-artwork/
 To install the wallpapers and themes on FunOS 24.04.2 or 25.04, run:
 
 ```bash
+sudo apt update
+sudo apt install git
 wget https://raw.githubusercontent.com/funos-linux/funos-artwork/main/install-funos-artwork.sh
 bash install-funos-artwork.sh
 ```
