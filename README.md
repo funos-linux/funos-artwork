@@ -9,7 +9,7 @@ This repository contains additional artwork files for FunOS, including:
 These files are included by default in **FunOS 24.04.3**.
 Users of **FunOS 24.04.2** and **FunOS 25.04** can manually add these wallpapers and themes using the provided install script.
 
-## 📦 Contents
+## Contents
 
 ```
 funos-artwork/
@@ -18,7 +18,7 @@ funos-artwork/
 └── jwm-config/       # new themes-list file
 ```
 
-## 🚀 Installation
+## Installation
 
 To install the wallpapers and themes on FunOS 24.04.2 or 25.04, run:
 
@@ -35,7 +35,7 @@ This will:
 * Copy JWM themes to `~/.config/jwm/themes/`
 * Overwrite `~/.config/jwm/themes-list` with the latest version
 
-## 💡 Note
+## Note
 
 After installing, you may need to **reload the JWM menu** for the new themes to appear:
 
@@ -43,7 +43,7 @@ After installing, you may need to **reload the JWM menu** for the new themes to 
 Menu → Reload Menu
 ```
 
-## 📜 License
+## License
 
 All wallpapers are sourced from Adobe Stock under a valid license for distribution with FunOS.
 JWM themes are released under the [MIT License](LICENSE).
