@@ -6,6 +6,8 @@ TEMP_DIR="/tmp/funos-artwork"
 WALLPAPER_DEST="/opt/artwork/wallpaper"
 JWM_THEME_DEST="$HOME/.config/jwm/themes"
 JWM_CONFIG_DEST="$HOME/.config/jwm"
+THEMES_LIST_FILE="$JWM_CONFIG_DEST/themes-list"
+BACKUP_SUFFIX=".bak.$(date +%Y%m%d%H%M%S)"
 
 echo "Downloading FunOS artwork files..."
 
@@ -30,9 +32,22 @@ echo "Installing JWM themes to $JWM_THEME_DEST..."
 mkdir -p "$JWM_THEME_DEST"
 cp -rv "$TEMP_DIR/jwm-themes/"* "$JWM_THEME_DEST"
 
-# --- Replace themes-list ---
+# --- Backup and Replace themes-list ---
 echo "Installing themes-list to $JWM_CONFIG_DEST..."
 mkdir -p "$JWM_CONFIG_DEST"
+
+if [[ -f "$THEMES_LIST_FILE" ]]; then
+    echo "⚠️  An existing themes-list file was found at:"
+    echo "    $THEMES_LIST_FILE"
+    read -p "Do you want to back it up before replacing? (y/n): " answer
+    if [[ "$answer" =~ ^[Yy]$ ]]; then
+        cp -v "$THEMES_LIST_FILE" "$THEMES_LIST_FILE$BACKUP_SUFFIX"
+        echo "🗂️  Backed up to $THEMES_LIST_FILE$BACKUP_SUFFIX"
+    else
+        echo "❗ Skipping backup of themes-list."
+    fi
+fi
+
 cp -v "$TEMP_DIR/jwm-config/themes-list" "$JWM_CONFIG_DEST"
 
 echo "✅ Artwork installation complete."
