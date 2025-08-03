@@ -37,19 +37,19 @@ echo "Installing themes-list to $JWM_CONFIG_DEST..."
 mkdir -p "$JWM_CONFIG_DEST"
 
 if [[ -f "$THEMES_LIST_FILE" ]]; then
-    echo "⚠️  An existing themes-list file was found at:"
+    echo "An existing themes-list file was found at:"
     echo "    $THEMES_LIST_FILE"
     read -p "Do you want to back it up before replacing? (y/n): " answer
     if [[ "$answer" =~ ^[Yy]$ ]]; then
         cp -v "$THEMES_LIST_FILE" "$THEMES_LIST_FILE$BACKUP_SUFFIX"
-        echo "🗂️  Backed up to $THEMES_LIST_FILE$BACKUP_SUFFIX"
+        echo "Backed up to $THEMES_LIST_FILE$BACKUP_SUFFIX"
     else
-        echo "❗ Skipping backup of themes-list."
+        echo "Skipping backup of themes-list."
     fi
 fi
 
 cp -v "$TEMP_DIR/jwm-config/themes-list" "$JWM_CONFIG_DEST"
 
-echo "✅ Artwork installation complete."
+echo "Artwork installation complete."
 
-echo -e "\n🔁 Please run 'jwm -restart' or log out and back in to see the new themes and wallpapers."
+echo -e "\nPlease run 'jwm -restart' or log out and back in to see the new themes and wallpapers."
