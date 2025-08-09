@@ -93,4 +93,4 @@ fi
 
 # --- Finish ---
 msg "Artwork installation complete."
-echo -e "\nPlease run 'jwm -restart' or log out and back in to see the new themes and wallpapers."
+echo -e "\nPlease run 'jwm -restart', or click Menu > Reload menu, or log out and back in to see the new themes and wallpapers."
