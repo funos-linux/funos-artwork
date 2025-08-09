@@ -28,6 +28,12 @@ sudo apt install git
 wget https://raw.githubusercontent.com/funos-linux/funos-artwork/main/install-funos-artwork.sh
 bash install-funos-artwork.sh
 ```
+```bash
+sudo apt update
+sudo apt install git
+wget https://raw.githubusercontent.com/funos-linux/funos-artwork/main/install-funos-artwork-v2.sh
+bash install-funos-artwork-v2.sh --non-interactive
+```
 
 This will:
 
