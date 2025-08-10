@@ -35,6 +35,14 @@ This will:
 * Copy JWM themes to `~/.config/jwm/themes/`
 * Overwrite `~/.config/jwm/themes-list` with the latest version
 
+## Delete the Script
+
+After installation, you can safely remove the script:
+
+```bash
+rm install-funos-artwork.sh
+```
+
 ## Note
 
 After installing, you may need to **reload the JWM menu** for the new themes to appear:
